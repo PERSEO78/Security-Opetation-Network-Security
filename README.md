@@ -1,6 +1,6 @@
 # Security Operation Network Security
  
-2. NETWORK SECURITY
+**2. NETWORK SECURITY**
 
 ![Imagen 1](https://user-images.githubusercontent.com/125692036/222238508-515da319-6240-45a9-918f-35e3ed4af89c.jpg)
 
@@ -41,7 +41,9 @@ Según la definición de Gartner, Inc., un firewall de próxima generación debe
 Si bien estas funcionalidades se están convirtiendo cada vez más en el estándar para la mayoría de las empresas, los NGFW pueden hacer más.
 
 B.	IDS/IPS
- 
+
+ ![Imagen 1](https://user-images.githubusercontent.com/125692036/222240654-fc336a69-208b-477b-8316-984fa50891ff.jpg)
+
 •	¿Cuáles son las diferencias entre un IDS y un IPS?
 En resumen, el IPS agrega la posibilidad de bloquear ataques y además protege de forma proactiva la red, mientras que el IDS no permite bloquear y protege de forma reactiva la red.
 •	¿Qué es el IDS IPS y para qué sirve?
@@ -68,11 +70,10 @@ El IPS se sitúa en línea dentro de la red IPS y no sólo escucha pasivamente a
 En resumen, un sistema de prevención de intrusos o Intrusion Prevention System (IPS), también conocido como sistema de prevención de detección de intrusiones (IDPS), es una tecnología que vigila una red para detectar cualquier actividad maliciosa que intente aprovechar la vulnerabilidad conocida
 
 
+C.	¿QUÉ ES UN SERVIDOR PROXY?
 
+![Imagen 3](https://user-images.githubusercontent.com/125692036/222241057-8d4e6453-108c-4957-8807-4e5bb7b4bed2.png)
 
-
-
-C.	¿QUÉ ES UN SERVIDOR PROXY?             
  Proxy es una herramienta conocida por proporcionar anonimato en Internet al ocultar la dirección IP pública del usuario. Estas aplicaciones funcionan como intermediario entre la comunicación de un navegador con Internet. En lugar de hacer una solicitud de forma directa para, por ejemplo, acceder a una página web, con un proxy la solicitud se envía a un servidor proxy que luego enviará la solicitud para acceder al sitio desde una IP diferente. Como se ilustra en la siguiente imagen, la computadora necesita pasar por el servidor proxy para acceder a Internet.                                                                                                                                                                          
 •	El proxy puede las siguientes cumplir algunas de funciones:                       
 •	Control de acceso: es posible que los administradores del servidor proxy permitan que ciertos usuarios tengan o no acceso a Internet a través de restricciones en su propio inicio de sesión o direcciones IP, proporcionando al entorno una capa adicional de protección.
@@ -104,8 +105,10 @@ Si bien a lo largo del articulo hemos desarrollado las funcionalidades y caracte
 •	Sin dudas usar un proxy nos otorga mayor grado de anonimato, ya que se navega por Internet a través de una IP que esta oculta.
 •	En ocasiones se puede acceder a sitios web cuyo contenido está restringido o bloqueado geográficamente y también las funciones de caché reducen los tiempo de carga al acceder a los sitios web.
 •	Otra ventaja, sobre todo para los propietarios de un proxy, es que podemos bloquear y filtrar páginas web; por ejemplo, aquellas que tengan contenido malicioso, e incluso podemos bloquear direcciones IP. También podemos disfrutar de otras funcionalidades, como el registro de logs, que permite tener un registro de todo lo que sucede en nuestra navegación, tanto de entrada como de salida, o la posibilidad de agregar autenticación y mejorar la seguridad del proxy. Incluso existe la posibilidad de crear blacklists para bloquear listas de sitios o direcciones no deseadas.
-C.	GATEWAY
 
+D.	GATEWAY
+
+![Imagen 5](https://user-images.githubusercontent.com/125692036/222241438-1cf45602-0e83-4c1c-a658-3e19f64c03df.png)
  
 
 •	¿Qué es y qué hace un gateway?
@@ -116,16 +119,9 @@ Un gateway también puede ser un PLC con tecnología avanzada que soporta una am
 Con el rápido avance de la digitalización en los procesos industriales, es cada vez más común ver fábricas inteligentes con aplicaciones para recopilar y compartir datos a través de máquinas, dispositivos y sistemas de producción conectados. En estos entornos, se puede utilizar un controlador multiprotocolo programable para actuar como un gateway IoT, haciendo la conexión entre la nube y la red de control PLC, sensores u otros dispositivos inteligentes. De esta forma, todos los datos que viajan entre el proceso y la nube pasarían por el gateway.
 El uso de un gateway IoT puede traer numerosos beneficios a las aplicaciones más simples de la industria, como la reducción de costos de infraestructura, por ejemplo. Hoy en día, los sensores más avanzados del mercado generan decenas de miles de datos por segundo, lo que requiere una alta capacidad de transmisión desde el enlace de Internet. Con el fin de evitar una cantidad innecesaria de procesamiento de datos y, en consecuencia, la necesidad de expandir las inversiones en ancho de banda, se puede utilizar un gateway IoT para mediar la conexión entre los sensores y la base de datos, enviando a la nube solo la información más relevante.
 
+D.DDOS PROTECTION 
 
-
-
-
-
-
-
-
-
-D.	DDOS PROTECTION 
+ ![Imagen 6](https://user-images.githubusercontent.com/125692036/222241641-2b73b260-ff02-44d3-8500-918cc5df3277.jpg)
  
 •	Técnicas de protección DDoS
 Reduzca la superficie expuesta a ataques
